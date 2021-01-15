@@ -3,7 +3,7 @@
 This repository contains the source code implementation of the VLDB'21 paper "Analyzing and Mitigating Data Stalls in DNN Training". This work was done as part of Microsoft Research's [Project Fiddle](https://www.microsoft.com/en-us/research/project/fiddle/). This source code is available under the [MIT License](LICENSE.txt).
 
 We present the first comprehensive analysis of how the data pipeline affects the training of the widely used Deep Neural Networks (DNNs). We find that in
-many cases, DNN training time is dominated by *data stall time*: time spent waiting for data to be fetched and pre-processed. We build a tool, DS-Analyzer to precisely measure data stalls using a differential technique, and perform predictive what-if analysis on data stalls. Based on the insights from our analysis, we design and implement three simple but effective techniques in a data-loading library, CoorDL (built atop [NVIDIA DALI](https://docs.nvidia.com/deeplearning/dali/user-guide/docs/index.html)), to
+many cases, DNN training time is dominated by *data stall time*: time spent waiting for data to be fetched and pre-processed. We build a tool, DS-Analyzer to precisely measure data stalls using a differential technique, and perform predictive what-if analysis on data stalls. Based on the insights from our analysis, we design and implement three simple but effective techniques in a data-loading library, [CoorDL](https://github.com/msr-fiddle/CoorDL) (built atop [NVIDIA DALI](https://docs.nvidia.com/deeplearning/dali/user-guide/docs/index.html)), to
 mitigate data stalls. 
 
 [[pdf]](https://www.microsoft.com/en-us/research/publication/analyzing-and-mitigating-data-stalls-in-dnn-training/)  [[slides]]()
@@ -145,7 +145,7 @@ With CoorDL:
 
 ---
 
-This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.
+This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ.
 License
 Copyright (c) Microsoft Corporation. All rights reserved.
-Licensed under the MIT license." (edited) 
+Licensed under the MIT license." 
