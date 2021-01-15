@@ -1,0 +1,10 @@
+**/**/__pycache__
+tool/results*
+**/**/*.txt
+**/**/*.tar
+**/**/*.csv
+**/**/*.log
+**/**/out
+**/**/memtest
+**/**/client
+**/**/server
